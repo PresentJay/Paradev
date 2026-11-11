@@ -1,0 +1,22 @@
+{
+  "surface": "Actual repository QuestionForm rendered in an isolated Electron window",
+  "electron": "44.10.0",
+  "vite": "8.3.6",
+  "react_plugin": "6.2.1",
+  "react_compiler": "1.0.0",
+  "bun": "1.4.3",
+  "main_commit": "b5da7a52bcdac3f547a08ab148cb13a078612dc3",
+  "fix_commit": "7f0f088698f67519f729fc1cd22cc0572e00176c",
+  "method": "CDP Input.imeSetComposition for ㄱ → 가 → 각, followed by Enter; the composing Enter event reported isComposing=true",
+  "before": {
+    "composing_enter_responses": 1
+  },
+  "after": {
+    "composing_enter_responses": 0,
+    "post_composition_normal_enter_responses": 1,
+    "answer_preserved": "각"
+  },
+  "physical_macos_keyboard_verified": false,
+  "full_desktop_agent_database_flow_verified": false,
+  "note": "The reported repeated-jamo issue was not reproduced here; this evidence supports only the premature question-answer submission fix."
+}
